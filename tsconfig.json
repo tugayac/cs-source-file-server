@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ],
+    "types": [
+      "node",
+      "express",
+      "debug"
+    ],
+    "target": "es6",
+    "module": "commonjs",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "experimentalDecorators": true,
+    "outDir": "./build"
+  }
+}
